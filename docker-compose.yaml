@@ -14,7 +14,7 @@ services:
     environment:
       DEFAULT_URL_TTL: 20
       REDIS_URL: redis://database:6379/0
-      REDIS_PASSWORD: JMhnlmx4wi6lLBIjsmNCRbcv97Rv9ixMc0Zr
+      REDIS_PASSWORD: <PASS>
       EXTERNAL_DOMAIN: http://short.aprylypa.local
     links:
       - db:database
