@@ -1,0 +1,9 @@
+# Generated files
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+.vite/
+.env
+redis.conf
+data/*/*

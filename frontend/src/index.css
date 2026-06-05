@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f4f7fb;
+  color: #1e293b;
+}
+
+.app-shell {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 1.75rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+p {
+  margin: 0;
+  color: #475569;
+}
+
+.url-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.url-form input:not([type="checkbox"]) {
+  padding: 0.95rem 1rem;
+  border-radius: 0.85rem;
+  border: 1px solid #cbd5e1;
+}
+
+.url-form label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.url-form button {
+  padding: 0.95rem 1.25rem;
+  border: none;
+  border-radius: 0.85rem;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.url-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.url-card {
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.url-card p {
+  margin: 0 0 0.5rem;
+}
+
+.url-card a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.error {
+  color: #b91c1c;
+  margin-bottom: 1rem;
+}
+
+.empty-state {
+  color: #64748b;
+}

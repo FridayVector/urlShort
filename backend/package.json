@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "urlshort-frontend": "file:../frontend"
+  }
+}
